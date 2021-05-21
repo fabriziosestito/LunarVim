@@ -20,5 +20,7 @@ require('gitsigns').setup {
   sign_priority = 6,
   update_debounce = 200,
   status_formatter = nil, -- Use default
-  use_decoration_api = false
+  use_decoration_api = false,
+  -- USER CFG
+  current_line_blame = true
 }

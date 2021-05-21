@@ -154,7 +154,7 @@ return require("packer").startup(function(use)
         -- simrat39/symbols-outline.nvim
 
         -- Git
-        -- use {'tpope/vim-fugitive', opt = true}
+        use {'tpope/vim-fugitive', opt = true}
         -- use {'tpope/vim-rhubarb', opt = true}
         -- pwntester/octo.nvim
 
@@ -162,5 +162,7 @@ return require("packer").startup(function(use)
         -- use {'mattn/vim-gist', opt = true}
         -- use {'mattn/webapi-vim', opt = true}
     end
-
+    -- USER CFG
+    use "justinmk/vim-sneak"
+    use "GustavoPrietoP/doom-themes.nvim"
 end)
